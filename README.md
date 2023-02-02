@@ -3,6 +3,7 @@
 - Next.js
 - TypeScript
 - GraphQL
+- PostgreSQL
 - Hasura
 
 ## ローカル環境
@@ -13,13 +14,13 @@
 npm run dev
 ```
 
-Hasura,db 起動
+Hasura, PostgreSQL 起動
 
 ```
 docker-compose up
 ```
 
-Hasura コンソール
+Hasura コンソール起動
 
 ```
 npx hasura console --project hasura
